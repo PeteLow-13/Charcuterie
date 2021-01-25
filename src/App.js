@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
+      <p>Get your Charcuterie here!</p>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Maria's Charcuterie
@@ -20,7 +21,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
       <Footer />
     </div>
   );
