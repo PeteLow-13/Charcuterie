@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
 
 function Gallery() {
     return (
@@ -8,4 +9,4 @@ function Gallery() {
     )
 }
 
-export default Gallery className='gallery-div'
+export default Gallery;
