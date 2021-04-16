@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 350px;
+    height: 100px;
+    /* height: 350px; */
   }
   
   .each-slide span {
