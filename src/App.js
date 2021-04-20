@@ -1,70 +1,50 @@
 import './App.css';
 import Header from './Components/Header';
 import React from "react";
-import Cart from './Cart';
-import Menu from './Menu';
-import Topics from './Topics';
-import Home from './Home';
+import Cart from './Pages/Cart';
+import Menu from './Pages/Menu';
+import Topics from './Pages/Topics';
+import Home from './Pages/Home';
+import AboutPage from './Pages/AboutPage';
+import ContactPage from './Pages/ContactPage';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Link
 } from "react-router-dom";
 import Footer from './Components/Footer';
+import NavBar from './Components/NavBar';
+import Nav2 from './Components/Nav2';
+import Nav from 'react-bootstrap/Nav' 
 
-// import Products from './Components/Products';
-// import About from './Components/About';
-// import Social from './Components/Social';
-// import Contact from './Components/Contact';
-// import Gallery from './Components/Gallery';
 
 function App() {
   return (
     <div className="App">
-      
-      <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/menu">Menu</Link>
-          </li>
-          <li>
-            <Link to="/cart">Cart</Link>
-          </li>
-          <li>
-            <Link to="/topics">Topics</Link>
-          </li>
-        </ul>
-
-        <Switch>
-          <Route path="/cart">
-            <Cart />
-          </Route>
-          <Route path='/menu'>
-            <Menu />
-          </Route>
-          <Route path="/menu">
-            <Topics />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-    {/* <Header /> */}
-      {/* <Gallery />
-      <Products />
-      <About />
-      <Social />
-      <Contact /> */}
-      <Footer />
+    <Nav2 />
+      <Router> 
+        <div>
+          <Switch>
+            <Route path="/cart">
+              <Cart />
+            </Route>
+            <Route path='/menu'>
+              <Menu />
+            </Route>
+            <Route path="/contactpage">
+              <ContactPage />
+            </Route>
+            <Route path="/aboutpage">
+              <AboutPage />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    <Footer />
     </div>
   );
 }

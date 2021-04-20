@@ -15,7 +15,6 @@ function About() {
             <p>We strive to make your special occasions special. We can bring a little extra deliciousness to any occasion.</p>
 
             <p>We also strive to be Eco friendly and source local ingredients.</p>
-            <button>Check out our Menu</button>
         </div>
     )
 }
