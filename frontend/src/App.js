@@ -1,50 +1,27 @@
-import './App.css';
-import Header from './Components/Header';
-import React from "react";
-import Cart from './Pages/Cart';
-import Menu from './Pages/Menu';
-import Topics from './Pages/Topics';
-import Home from './Pages/Home';
-import AboutPage from './Pages/AboutPage';
-import ContactPage from './Pages/ContactPage';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from './Components/Footer';
-import NavBar from './Components/NavBar';
-import Nav2 from './Components/Nav2';
-import Nav from 'react-bootstrap/Nav' 
+import TopNav from './Components/TopNav';
+import { Container } from 'react-bootstrap';
+import HomeScreen from './screens/HomeScreen';
+import AboutScreen from './screens/AboutScreen';
+import MenuScreen from './screens/MenuScreen';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-    <Nav2 />
       <Router> 
-        <div>
-          <Switch>
-            <Route path="/cart">
-              <Cart />
-            </Route>
-            <Route path='/menu'>
-              <Menu />
-            </Route>
-            <Route path="/contactpage">
-              <ContactPage />
-            </Route>
-            <Route path="/aboutpage">
-              <AboutPage />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-        </div>
+          <TopNav />
+          <Container>
+            <main className='py3'>
+            <Route path='/' component={HomeScreen} exact />
+            <Route path='/menu' component={MenuScreen} />
+            <Route path='/about' component={AboutScreen} />
+            
+            <Footer />
+            </main>
+          </Container>
       </Router>
-    <Footer />
     </div>
   );
 }
