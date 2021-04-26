@@ -1,12 +1,17 @@
 import React from 'react';
-import './style.css';
+import { Container } from 'react-bootstrap';
+// import './style.css';
 
-export default function Header() {
+const Header = () => {
     return (
-        <div className='header-div'>
-            <h1>L&D Charcuterie</h1>
+        <Container className='header-div'>
+        
+            <h1>L&D</h1> 
+            <h1>Charcuterie</h1>
             <h2>Seattle, WA</h2>
             <p>Making your events special since 2021</p>
-        </div>
+        
+        </Container>
     )
 }
+export default Header

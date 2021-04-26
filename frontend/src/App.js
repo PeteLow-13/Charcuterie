@@ -5,11 +5,11 @@ import { Container } from 'react-bootstrap';
 import HomeScreen from './screens/HomeScreen';
 import AboutScreen from './screens/AboutScreen';
 import MenuScreen from './screens/MenuScreen';
+import ContactScreen from './screens/ContactScreen';
 
 
 const App = () => {
   return (
-    <div className="App">
       <Router> 
           <TopNav />
           <Container>
@@ -17,12 +17,12 @@ const App = () => {
             <Route path='/' component={HomeScreen} exact />
             <Route path='/menu' component={MenuScreen} />
             <Route path='/about' component={AboutScreen} />
+            <Route path='/contact' component={ContactScreen} />
             
             <Footer />
             </main>
           </Container>
       </Router>
-    </div>
   );
 }
 

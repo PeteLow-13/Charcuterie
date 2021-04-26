@@ -65,3 +65,5 @@ const foodItems = [
         numReviews: 12, 
     }
 ]
+
+export default foodItems

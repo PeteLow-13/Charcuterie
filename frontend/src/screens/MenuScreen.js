@@ -11,8 +11,7 @@ const MenuScreen = () => {
                 {foodItems.map(menuItem => (
                     <Col key={menuItem._id} sm={12} md={6} lg={4} xl={3}>
                         <MenuCard menuItem={menuItem} />
-                    </Col>
-                    
+                    </Col>   
                 ))} 
             </Row>
         </>

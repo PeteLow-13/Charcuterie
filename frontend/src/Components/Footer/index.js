@@ -1,12 +1,15 @@
 import React from 'react'
-import './style.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
-function Footer() {
+const Footer = () => {
     return (
-        <div className='footer'>
-            <p>© Low Desales Charcuterie 2021</p> 
-            <p>Built by <a href='https://github.com/PeteLow-13' target='blank'>Pete Low 2021</a></p>
-        </div>
+        <footer>
+            <Container>
+                <Row><Col className='text-center py-3'>Copyright &copy; L&D Charcuterie</Col>
+                {/* <p>Built by <a href='https://github.com/PeteLow-13' target='blank'>Pete Low 2021</a></p> */}
+                </Row>
+            </Container>
+        </footer>
     )
 }
 
