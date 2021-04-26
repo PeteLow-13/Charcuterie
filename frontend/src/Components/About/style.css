@@ -1,20 +1,21 @@
 .about-us-div {
-    background-color: aliceblue;;
-    font-family: 'Open Sans Condensed', sans-serif;
-    border-radius: 5px;
+  background-color: aliceblue;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 .fam-pic-div {
-    height: 60vh;
-    width: auto;
+  height: 60vh;
+  width: auto;
 }
 
-
 .fam-pic-div img {
-    border-radius: 50%;
-    height: 100%;
-    width: auto;
-    border-style: solid;
-    border-color:royalblue;
-    border-width: 1px;
+  border-radius: 50%;
+  height: 100%;
+  width: auto;
+  border-style: solid;
+  border-color: royalblublack;
+  border-width: 1px;
 }

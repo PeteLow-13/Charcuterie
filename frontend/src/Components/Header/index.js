@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-// import './style.css';
+import './style.css';
 
 const Header = () => {
     return (
-        <Container className='header-div'>
+        <Container className='header-div text-center py-3'>
         
             <h1>L&D</h1> 
             <h1>Charcuterie</h1>

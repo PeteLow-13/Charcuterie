@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
 
-function Social() {
+const Social = () => {
     return (
         <div className='social-div'>
-            <h2>Check us out on Social</h2>
+            <h2 className='text-center'>Check us out on Social</h2>
             <div>
             <a target='blank' href='https://www.facebook.com/LD-Charcuterie-102830505160367' alt='facebook'><i class="fab fa-facebook"></i></a>
             <a target='blank' href='https://www.instagram.com/landdcharcuterie/' alt='instagram'><i class="fab fa-instagram"></i></a>

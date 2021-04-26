@@ -1,14 +1,16 @@
 import React from 'react'
 import Social from '../Components/Social';
-import Products from '../Components/Products';
+
 import Contact from '../Components/Contact';
 import Header from '../Components/Header';
+import CarouselComp from '../Components/CarouselComp';
+// import { Carousel } from 'react-bootstrap';
 
 const HomeScreen = () => {
     return (
         <div>
             <Header />
-            <Products />
+            <CarouselComp />
             <Social />
             <Contact />
         </div>
