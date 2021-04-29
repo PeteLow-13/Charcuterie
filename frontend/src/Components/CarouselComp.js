@@ -4,7 +4,6 @@ import charc1 from '../images/charc1.jpeg';
 import charc2 from '../images/charc4.jpeg';
 import charc3 from '../images/charc3.jpeg';
 
-
 const CarouselComp = () => {
     return (
         <>

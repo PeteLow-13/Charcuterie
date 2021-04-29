@@ -1,5 +1,7 @@
 import React from 'react'
 import Contact from '../Components/Contact'
+import ContactForm from '../Components/ContactForm'
+
 import Header from '../Components/Header'
 
 function ContactPage() {
@@ -7,6 +9,7 @@ function ContactPage() {
         <div>
             <Header />
             <Contact />
+            <ContactForm />
         </div>
     )
 }
