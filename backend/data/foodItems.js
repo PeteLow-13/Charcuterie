@@ -1,6 +1,5 @@
 const foodItems = [
   {
-    _id: '1',
     name: 'Charcuterie 1',
     image: '/images/charc1.jpeg',
     description:
@@ -13,7 +12,6 @@ const foodItems = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Charcuterie 2',
     image: '/images/charc1.jpeg',
     description:
@@ -26,7 +24,6 @@ const foodItems = [
     numReviews: 12,
   },
   {
-    _id: '3',
     name: 'Charcuterie 3',
     image: '/images/charc3.jpeg',
     description:
@@ -39,7 +36,6 @@ const foodItems = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Charcuterie 4',
     image: '/images/charc4.jpeg',
     description:
@@ -52,7 +48,6 @@ const foodItems = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Charcuterie 5',
     image: '/images/charc5.jpeg',
     description:
