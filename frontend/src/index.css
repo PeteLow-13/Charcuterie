@@ -7,6 +7,10 @@ h3 {
   padding: 1rem 0;
 }
 
+.Container {
+  background-color: aliceblue;
+}
+
 /* .rating span {
   margin: 0.1rem;
 } */
