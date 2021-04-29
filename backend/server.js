@@ -1,21 +1,30 @@
-import express from 'express'
-import dotenv from 'dotenv'
-import products from './data/foodItems.js'
+import express from 'express';
+import dotenv from 'dotenv';
+import colors from 'colors';
+import connectDB from './config/db.js'; //! need to add .js for the javascript filename 'cause in the backgorund
+import products from './data/foodItems.js';
 
-const app = express()
-const PORT = process.env.PORT || 5000
+dotenv.config();
+
+connectDB();
+
+const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
-  res.send('API is runing...')
-})
+  res.send('API is runing...');
+});
 
 app.get('/api/products', (req, res) => {
-  res.json(products)
-})
+  res.json(products);
+});
 
 app.get('/api/products/:id', (req, res) => {
-  const product = products.find(p => p._id === req.params.id)
-  res.json(product)
-})
+  const product = products.find((p) => p._id === req.params.id);
+  res.json(product);
+});
 
-app.listen(PORT, console.log(`Sever running in ${process.env.NODE_ENV} on port: ${PORT}`))
+app.listen(
+  PORT,
+  console.log(`Sever running in ${process.env.NODE_ENV} on port: ${PORT}`)
+);
