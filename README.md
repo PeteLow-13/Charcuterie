@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# L&D Charcuterie Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+A site to sell charcuterie and other products
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Usage](#usage)
+- [App Structure](#app-structure)
+- [Media](#Media)
+- [Languages](#languages)
+- [Deployed](#Deployed)
+- [Questions](#questions)
+- [Contributers](#contributers)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A site to sell charcuterie and other products
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
 
-### `npm run build`
+## App-Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+App-Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Media
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Text](url)
 
-### `npm run eject`
+License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Languages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+JavaScript, ReactJS, MongoDB, CSS, HTML, Express, Node.JS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deployed
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Deployed
 
-## Learn More
+- url
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- https://github.com/PeteLow-13/Charcuterie
 
-### Code Splitting
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contact us via email or github with questions
 
-### Analyzing the Bundle Size
+## Contributers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Pete Low:
+- [PeteLow-13](http://github.com/PeteLow-13)
+- pedritolow@gmail.com
+- Daniel Yu:
+- [DanielYu0864](https://github.com/DanielYu0864)
+- adam741963@gmail.com
