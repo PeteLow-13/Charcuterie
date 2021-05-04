@@ -16,7 +16,7 @@ const App = () => {
         <main className='py3'>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/menu' component={MenuScreen} />
-          <Route path='/product/:id' component={ProductScreen} />
+          <Route path='/menuItem/:id' component={ProductScreen} />
           <Route path='/about' component={AboutScreen} />
           <Route path='/contact' component={ContactScreen} />
 

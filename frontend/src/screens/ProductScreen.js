@@ -15,7 +15,7 @@ const ProductScreen = ({ match }) => {
   useEffect(() => {
     dispatch(listProductDetails(match.params.id));
   }, [dispatch, match]);
-
+  console.log(product);
   return (
     <>
       <Link className='btn btn-light my-3' to='/menu'>
@@ -27,7 +27,9 @@ const ProductScreen = ({ match }) => {
       ) : error ? (
         <Message variant='danger'>{error}</Message>
       ) : (
-        <Row>{'product page'}</Row>
+        <Row>
+          <h3>{product.name}</h3>
+        </Row>
       )}
     </>
   );
