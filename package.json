@@ -6,10 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "npm run dev",
+<<<<<<< HEAD
+=======
+    "start:prod": "node server.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+>>>>>>> 8705c38d6a7473027c5535eeb19caea5b2afb2e0
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
-    "client:install": "npm intall --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d"
