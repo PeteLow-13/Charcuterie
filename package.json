@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "npm run dev",
-    "start:prod": "node server.js",
     "install": "cd frontend && npm install",
     "build": "cd frontend && npm run build",
     "heroku-postbuild": "npm run build",
