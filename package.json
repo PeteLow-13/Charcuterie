@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npm run dev",
+    "start": "if-env NODE_ENV=production && npm run server || npm run dev",
     "install": "cd frontend && npm install",
     "build": "cd frontend && npm run build",
     "heroku-postbuild": "npm run build",
