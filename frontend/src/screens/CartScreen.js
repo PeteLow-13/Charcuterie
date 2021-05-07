@@ -10,7 +10,7 @@ import {
   Button,
   Card,
 } from 'react-bootstrap';
-import Message from '../components/Message';
+// import Message from '../components/Message';
 
 /*
 !react-router:
@@ -20,7 +20,7 @@ import Message from '../components/Message';
 */
 
 const CartScreen = () => {
-  return <div></div>;
+  return <div>Cart Screen</div>;
 };
 
 export default CartScreen;

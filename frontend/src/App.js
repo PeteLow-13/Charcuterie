@@ -7,6 +7,7 @@ import AboutScreen from './screens/AboutScreen';
 import MenuScreen from './screens/MenuScreen';
 import ContactScreen from './screens/ContactScreen';
 import ProductScreen from './screens/ProductScreen';
+import CartScreen from './screens/CartScreen';
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           <Route path='/menuItem/:id' component={ProductScreen} />
           <Route path='/about' component={AboutScreen} />
           <Route path='/contact' component={ContactScreen} />
-
+          <Route path='/cart' component={CartScreen} />
           <Footer />
         </main>
       </Container>
