@@ -13,7 +13,7 @@ const foodItems = [
   },
   {
     name: 'Charcuterie 2',
-    image: '/images/charc1.jpeg',
+    image: '/images/charc2.jpeg',
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam molestiae quia obcaecati consequuntur illum officia eveniet, esse voluptatibus veniam libero dolor ea voluptatum cumque, quod enim est a laborum harum.',
     brand: 'L&D',
