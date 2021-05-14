@@ -8,6 +8,9 @@ import MenuScreen from './screens/MenuScreen';
 import ContactScreen from './screens/ContactScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
+import LoginScreen from './screens/LoginScreen';
+import RegisterScreen from './screens/RegisterScreen';
+import ProfileScreen from './screens/ProfileScreen';
 
 const App = () => {
   return (
@@ -15,12 +18,15 @@ const App = () => {
       <TopNav />
       <Container>
         <main className='py3'>
-          <Route path='/' component={HomeScreen} exact />
-          <Route path='/menu' component={MenuScreen} />
-          <Route path='/menuItem/:id' component={ProductScreen} />
+          <Route path='/login' component={LoginScreen} />
+          <Route path='/register' component={RegisterScreen} />
+          <Route path='/profile' component={ProfileScreen} />
           <Route path='/about' component={AboutScreen} />
           <Route path='/contact' component={ContactScreen} />
+          <Route path='/menu' component={MenuScreen} />
+          <Route path='/menuItem/:id' component={ProductScreen} />
           <Route path='/cart/:id?' component={CartScreen} />
+          <Route path='/' component={HomeScreen} exact />
           <Footer />
         </main>
       </Container>
