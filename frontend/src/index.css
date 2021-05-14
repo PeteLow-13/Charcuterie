@@ -6,6 +6,9 @@ main {
 h3 {
   padding: 1rem 0;
 }
+h2 {
+  text-align: center;
+}
 
 .Container {
   background-color: aliceblue;
