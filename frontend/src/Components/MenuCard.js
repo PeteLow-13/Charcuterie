@@ -14,7 +14,7 @@ const MenuCard = ({ menuItem }) => {
   return (
     <Card className='my-3 p-3 rounded'>
       <Link to={`/menuItem/${menuItem._id}`}>
-        <Card.Img src={menuItem.image} variant='top' />
+        <Card.Img src={menuItem.image} variant='top' className='rounded' />
       </Link>
       <Card.Body>
         <Link to={`/menuItem/${menuItem._id}`}>

@@ -8,6 +8,7 @@ const TopNav = () => {
       <Navbar bg='light' variant='light' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
+            {/* <Navbar.Brand>MD</Navbar.Brand> */}
             <Navbar.Brand>L&D</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
