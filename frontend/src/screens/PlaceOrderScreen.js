@@ -14,7 +14,7 @@ const PlaceOrderScreen = ({ history }) => {
   if (!cart.shippingAddress.address) {
     // return to shipping address form if no address
     history.push('/shipping');
-  } else if (!cart.paymentMethod) {
+    // } else if (!cart.paymentMethod) {
     // return to payment if no payment
 
     history.push('/payment');

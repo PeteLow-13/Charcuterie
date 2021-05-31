@@ -37,7 +37,7 @@ const CartScreen = ({ match, location, history }) => {
     }
   }, [dispatch, productId, qty]);
 
-  const removeFromCArtHandler = (id) => {
+  const removeFromCartHandler = (id) => {
     dispatch(removeFromCart(id));
   };
 
@@ -87,7 +87,7 @@ const CartScreen = ({ match, location, history }) => {
                     <Button
                       type='button'
                       variant='light'
-                      onClick={() => removeFromCArtHandler(item.product)}
+                      onClick={() => removeFromCartHandler(item.product)}
                     >
                       <i className='fas fa-trash' />
                     </Button>
