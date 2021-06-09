@@ -10,7 +10,7 @@ const CarouselComp = () => {
       <Carousel fade>
         <Carousel.Item>
           <img
-            className='d-block w-100 fluid rounded'
+            className='d-block w-100 fluid rounded contain'
             src={charc1}
             alt='First slide'
           />
@@ -21,7 +21,7 @@ const CarouselComp = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className='d-block w-100 fluid rounded'
+            className='d-block w-100 fluid rounded contain'
             src={charc2}
             alt='Second slide'
           />
@@ -33,7 +33,7 @@ const CarouselComp = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className='d-block w-100 fluid rounded'
+            className='d-block w-100 fluid rounded contain'
             src={charc3}
             alt='Third slide'
           />
