@@ -1,20 +1,17 @@
 {
   "name": "charcuterie",
   "version": "1.0.0",
-  "description": "e-commerce",
-  "main": "index.js",
+  "description": "online buisness site",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run server || npm run dev",
-    "install": "cd frontend && npm install",
-    "build": "cd frontend && npm run build",
-    "heroku-postbuild": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d"
+    "data:destroy": "node backend/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
@@ -27,6 +24,7 @@
   },
   "homepage": "https://github.com/PeteLow-13/Charcuterie#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
@@ -34,8 +32,8 @@
     "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.7",
-    "multer": "^1.4.2",
-    "react-paypal-button-v2": "^2.6.3"
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
   },
   "devDependencies": {
     "concurrently": "^6.0.2",
