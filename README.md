@@ -38,9 +38,9 @@ JavaScript, ReactJS, MongoDB, CSS, HTML, Express, Node.JS
 
 ## Deployed
 
-Deployed
+Deployed:
 
-- url
+- https://ldcharcuterie.herokuapp/
 
 ## Repository
 
