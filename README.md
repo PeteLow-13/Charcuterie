@@ -30,8 +30,6 @@ App-Structure
 
 ![Text](url)
 
-License
-
 ## Languages
 
 JavaScript, ReactJS, MongoDB, CSS, HTML, Express, Node.JS
