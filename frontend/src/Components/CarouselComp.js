@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import charc1 from '../images/charc1.jpeg';
-import charc2 from '../images/charc4.jpeg';
-import charc3 from '../images/charc3.jpeg';
+import charc1 from '../images/charc6.jpeg';
+import charc2 from '../images/charc7.jpeg';
+import charc3 from '../images/charc13.jpeg';
 
 const CarouselComp = () => {
   return (
@@ -15,8 +15,8 @@ const CarouselComp = () => {
             alt='First slide'
           />
           <Carousel.Caption>
-            <h3>Charcuterie #1</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {/* <h3>Charcuterie #1</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -27,8 +27,8 @@ const CarouselComp = () => {
           />
 
           <Carousel.Caption>
-            <h3>Charcuterie #2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3>Charcuterie #2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,10 +39,10 @@ const CarouselComp = () => {
           />
 
           <Carousel.Caption>
-            <h3>Charcuterie #3</h3>
+            {/* <h3>Charcuterie #3</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
