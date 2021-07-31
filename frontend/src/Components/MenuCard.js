@@ -22,10 +22,8 @@ const MenuCard = ({ menuItem }) => {
             <strong>{menuItem.name}</strong>
           </Card.Title>
         </Link>
-        {/* <Card.Text as='div'>
-                    <Rating value={menuItem.rating} text={`${menuItem.numReviews} reviews`} />
-                </Card.Text> */}
         <Card.Text as='h3'>${menuItem.price}</Card.Text>
+        <Card.Text as='p'>{menuItem.description}</Card.Text>
         <Button onClick={addToCartHandler}>Add to Cart</Button>
       </Card.Body>
     </Card>
