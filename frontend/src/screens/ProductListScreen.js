@@ -4,7 +4,7 @@ import { Table, Button, Row, Col } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from '../Components/Message';
 import Loader from '../Components/Loader';
-// import Paginate from '../Components/Paginate'
+import Paginate from '../Components/Paginate';
 import {
   listProducts,
   deleteProduct,
@@ -57,7 +57,7 @@ const ProductListScreen = ({ history, match }) => {
     successDelete,
     successCreate,
     createdProduct,
-    // pageNumber,
+    pageNumber,
   ]);
 
   const deleteHandler = (id) => {
@@ -129,7 +129,7 @@ const ProductListScreen = ({ history, match }) => {
               ))}
             </tbody>
           </Table>
-          {/* <Paginate pages={pages} page={page} isAdmin={true} /> */}
+          <Paginate pages={pages} page={page} isAdmin={true} />
         </>
       )}
     </>
