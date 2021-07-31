@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import charc1 from '../images/charc6.jpeg';
-import charc2 from '../images/charc7.jpeg';
-import charc3 from '../images/charc13.jpeg';
+import charc1 from '../images/charc7.jpeg';
+import charc2 from '../images/charc8.jpeg';
+import charc3 from '../images/charc9.jpeg';
 
 const CarouselComp = () => {
   return (
