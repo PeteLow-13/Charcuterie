@@ -1,6 +1,7 @@
 # L&D Charcuterie Site
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![HomeScreen](./readmeassets/homescreen.png)
 
 ## Description
 
@@ -28,7 +29,7 @@ App-Structure
 
 ## Media
 
-![Text](url)
+![HomeScreen](./readmeassets/homescreen.png)
 
 ## Languages
 
