@@ -29,7 +29,7 @@ const MenuScreen = () => {
       ) : (
         <Row>
           {products.map((menuItem) => (
-            <Col key={menuItem._id} sm={12} md={6} lg={4} xl={3}>
+            <Col key={menuItem._id} sm={12} md={6} lg={4} xl={4}>
               <MenuCard menuItem={menuItem} />
             </Col>
           ))}
