@@ -14,7 +14,12 @@ const MenuCard = ({ menuItem }) => {
   return (
     <Card className='my-3 p-3 rounded'>
       <Link to={`/menuItem/${menuItem._id}`}>
-        <Card.Img src={menuItem.image} variant='top' className='rounded' />
+        <Card.Img
+          src={menuItem.image}
+          variant='top'
+          className='rounded'
+          style={{ objectFit: 'cover', minHeight: '340px', maxHeight: '340px' }}
+        />
       </Link>
       <Card.Body>
         <Link to={`/menuItem/${menuItem._id}`}>
