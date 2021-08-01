@@ -14,7 +14,7 @@ const Social = () => {
         }}
       >
         <Row>
-          <Col className='align-items-center py-5 px-5 '>
+          <Col className='align-items-center py-4 px-4'>
             <a
               target='blank'
               href='https://www.facebook.com/LD-Charcuterie-102830505160367'
@@ -23,7 +23,7 @@ const Social = () => {
               <i class='fab fa-facebook-square'></i>
             </a>
           </Col>
-          <Col className='align-items-center py-5 px-5'>
+          <Col className='align-items-center py-4 px-4'>
             <a
               target='blank'
               href='https://www.instagram.com/landdcharcuterie/'
@@ -32,7 +32,7 @@ const Social = () => {
               <i className='fab fa-instagram'></i>
             </a>
           </Col>
-          <Col className='align-items-center py-5 px-5'>
+          <Col className='align-items-center py-4 px-4'>
             <a
               target='blank'
               href='https://www.yelp.com/search?find_loc=Seattle%2C+WA'
@@ -41,7 +41,7 @@ const Social = () => {
               <i className='fab fa-yelp'></i>
             </a>
           </Col>
-          <Col className='align-items-center py-5 px-5'>
+          <Col className='align-items-center py-4 px-4'>
             <a
               target='blank'
               href='https://twitter.com/DcharcuterieL'
