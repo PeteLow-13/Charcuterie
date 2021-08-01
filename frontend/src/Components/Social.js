@@ -5,9 +5,16 @@ const Social = () => {
   return (
     <div className='social-div'>
       <h2 className='text-center'>Check us out on Social</h2>
-      <div>
-        <Row className='align-items-center'>
-          <Col className='align-items-center py-3 px-5'>
+      <div
+        style={{
+          fontSize: '45px',
+          display: 'flex',
+          alignContent: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <Row>
+          <Col className='align-items-center py-5 px-5 '>
             <a
               target='blank'
               href='https://www.facebook.com/LD-Charcuterie-102830505160367'
@@ -16,7 +23,7 @@ const Social = () => {
               <i class='fab fa-facebook-square'></i>
             </a>
           </Col>
-          <Col className='align-items-center py-3 px-2'>
+          <Col className='align-items-center py-5 px-5'>
             <a
               target='blank'
               href='https://www.instagram.com/landdcharcuterie/'
@@ -25,7 +32,7 @@ const Social = () => {
               <i className='fab fa-instagram'></i>
             </a>
           </Col>
-          <Col className='align-items-center py-3 px2'>
+          <Col className='align-items-center py-5 px-5'>
             <a
               target='blank'
               href='https://www.yelp.com/search?find_loc=Seattle%2C+WA'
@@ -34,13 +41,13 @@ const Social = () => {
               <i className='fab fa-yelp'></i>
             </a>
           </Col>
-          <Col className='align-items-center py-3 px-2'>
+          <Col className='align-items-center py-5 px-5'>
             <a
               target='blank'
               href='https://twitter.com/DcharcuterieL'
               alt='twitter'
             >
-              <i class='fab fa-twitter-square'></i>
+              <i className='fab fa-twitter-square'></i>
             </a>
           </Col>
         </Row>
