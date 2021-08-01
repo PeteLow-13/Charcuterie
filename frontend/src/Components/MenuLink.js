@@ -3,12 +3,12 @@ import { Button, Row } from 'react-bootstrap';
 
 const MenuLink = () => {
   return (
-    <div className='menu-button'>
-      <Row>
+    <div className='menu-button-container'>
+      <div className='menu-button'>
         <Button href='/menu' variant='primary' type='submit'>
           Check out our Menu
         </Button>
-      </Row>
+      </div>
     </div>
   );
 };
